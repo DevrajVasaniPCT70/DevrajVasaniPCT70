@@ -1,9 +1,9 @@
-<h1 align="center">Hi 👋, I'm Devraj Vasani</h1>
+<h1 align="center">Hi, I'm DEVRAJ VASANI</h1>
 <h3 align="center">I'm enthusiastic to learn and explore new tools & technologies for continuous learning and growth in the field of software engineering, as well as excited to solve programming problems by analytical problem solving skillset & teamwork.</h3>
 
 - 🔭 I’m currently working on **backend web development**
 
-- 👯 I’m looking to collaborate on **Computer Engineering as a freshman in a Government Engineering College.**
+- 👯 I’m looking to collaborate on **Computer Engineering as a ASP .Net MVC Trainee at Tatvsoft Pvt. Ltd., Ahemdabad.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
