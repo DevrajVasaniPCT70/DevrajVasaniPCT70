@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/temp.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- Header -->
+
+        <nav class="navbar navbar-light">
+
+            <div id="header" class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/menu-bar.svg" width="30" height="30" alt>
+                </a>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/header-logo.svg" width="30" height="30"
+                        alt>
+                </a>
+
+                <form class="d-flex form-inline my-2 my-lg-0">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/search-icon.svg" width="30"
+                            height="30"
+                            alt>
+                    </a>
+                    <input class="searchInput" class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search" aria-label="Search">
+                </form>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/notification-icon.svg" width="30"
+                        height="30"
+                        alt>
+                </a>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/profile.png" width="30" height="30" alt>
+                </a>
+
+                <div id="profileName">John Doe</div>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/downward-arrow.svg" width="30"
+                        height="30">
+                </a>
+            </div>
+
+        </nav>
+
+        <div class="d-flex">
+
+            <!-- Sidebar -->
+
+            <div class="sidebar"
+                class="d-flex flex-column flex-shrink-0 p-3 bg-light"
+                style="width: 280px;">
+
+                <ul class="sidebar" class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item" id="activeElement">
+                        <a href="#" id="activeItem" class="nav-link active"
+                            aria-current="page">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#home"></use></svg>
+                            <img src="./images/dashboard-active.svg" width="30"
+                                height="30">
+                            <b>Dashboard</b>
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/graph-default.svg" width="25"
+                                height="25">
+                            Analysis
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/inbox-default.svg" width="30"
+                                height="30">
+                            Inbox
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/clock-default.svg" width="30"
+                                height="30">
+                            History
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/user-default.svg" width="30"
+                                height="30">
+                            Users
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/maintenance-default.svg"
+                                width="30"
+                                height="30">
+                            Maintenance
+                        </a>
+                    </li>
+                    <li class="sidebarElement">
+                        <a href="#" class="nav-link link-dark" id="sidebarItem">
+                            <svg class="bi me-2" width="16" height="16"><use
+                                    xlink:href="#speedometer2"></use></svg>
+                            <img src="./images/setting-default.svg" width="30"
+                                height="30">
+                            Setting
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Content -->
+
+            
+                <div class="content">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="dashName">Dashboard</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="graphElement" class="col-8">
+                            <div id="graphOption">
+                                <div id="imgTag">Sales
+                                </div>
+                                <div class="wmy">
+                                    <div class="wmy">Weekly</div>
+                                    <div class="wmy">Monthly</div>
+                                    <div id="wmyActive" class="wmy">Yearly</div>
+                                </div>
+                            </div>
+                            <img src="./images/data-graph.png">
+
+                        </div>
+                        <div class="col-4">col</div>
+                    </div>
+                </div>
+            
+
+        </div>
+
+    </body>
+</html>

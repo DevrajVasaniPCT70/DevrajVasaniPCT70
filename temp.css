@@ -1,0 +1,96 @@
+.body {
+    font-family: Roboto;
+    background-color: #ffffff;
+}
+
+#header {
+    background-color: white;
+}
+
+.searchInput {
+    border: hidden;
+}
+
+#profileName {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sidebar {
+    background-color: white;
+    list-style: none;
+}
+
+#activeElement {
+    border-radius: 5px;
+    border: hidden;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#activeItem {
+    background-color: #FFF3F4;
+    color: #C8242F;
+    font-size: 24px;
+}
+
+.sidebarElement {
+    padding-bottom: 20px;
+}
+
+#sidebarItem {
+    font-size: 22px;
+}
+
+
+.content {
+    /* height: 100px; */
+    /* width: 1140px; */
+    margin-top: 7.5px;
+    margin-left: 10px;
+}
+
+.row {
+    background-color: #ebebeb;
+}
+
+#dashName {
+    display: flex;
+    align-items: end;
+    height: 100px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#graphElement {
+    margin-top: 25px;
+    margin-left: 70px;
+    background-color: white;
+}
+
+#graphOption {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#imgTag {
+    font-size: 20px;
+}
+
+.wmy {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wmyActive {
+    color: #C8242F;
+    text-decoration: underline;
+}
